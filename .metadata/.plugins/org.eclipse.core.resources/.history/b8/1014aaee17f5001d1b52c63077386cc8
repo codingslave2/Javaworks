@@ -1,0 +1,16 @@
+package ch03;
+
+public class BitTest {
+
+	public static void main(String[] args) {
+		// 2진수, 16진수 표기
+		int num = 10;
+		int bNum = 0b1010; // 2진수 - 접두어(0b) 붙임
+		int hNum = 0xA; // 16진수 - 접두어(0x) 붙임
+		
+		System.out.println(num);
+		System.out.println(bNum);
+		System.out.println(hNum);
+	}
+
+}

@@ -1,0 +1,11 @@
+package ifExample;
+
+public class Integer1 {
+
+	public static void main(String[] args) {
+		// 문자형을 숫자로 전환
+		int value1 = Integer.parseInt("10");
+		System.out.println(value1);
+	}
+
+}

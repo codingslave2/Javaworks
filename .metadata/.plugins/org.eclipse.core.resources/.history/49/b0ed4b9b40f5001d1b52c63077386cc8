@@ -1,0 +1,16 @@
+package methods;
+
+import java.util.Calendar;
+
+public class Calendar1 {
+
+	public static void main(String[] args) {
+		// Calendar 클래스 사용
+		
+		Calendar cal = Calendar.getInstance();
+		System.out.println(cal);
+		System.out.println(cal.getCalendarType());
+		
+	}
+
+}

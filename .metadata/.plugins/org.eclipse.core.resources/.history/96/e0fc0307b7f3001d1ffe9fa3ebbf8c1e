@@ -1,0 +1,14 @@
+package constant;
+
+public class Constant1 {
+
+	public static void main(String[] args) {
+		// 상수 선언하기 - final 키워드
+		final int maxNum = 100;
+		
+		maxNum = 200;
+		
+		System.out.println(maxNum);
+	}
+
+}

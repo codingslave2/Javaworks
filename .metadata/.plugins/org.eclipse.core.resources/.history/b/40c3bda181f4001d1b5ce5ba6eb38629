@@ -1,0 +1,19 @@
+package ifExample;
+
+public class ArrayCalc {
+
+	public static void main(String[] args) {
+		// 베열의 총점과 평균
+		// 90, 70, 85, 60 입력
+		
+		int[] score = new int[4];
+		int total = 0;
+		
+		
+		score[0] = 90;
+		score[1] = 70;
+		score[2] = 85;
+		score[3] = 60;
+	}
+
+}

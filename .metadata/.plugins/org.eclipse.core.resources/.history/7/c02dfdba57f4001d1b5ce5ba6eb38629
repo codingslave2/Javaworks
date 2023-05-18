@@ -1,0 +1,29 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class Bank1 {
+
+	public static void main(String[] args) {
+		// 은행 업무 - 예금, 출금, 잔고 확인
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("==============================");
+		System.out.println("1.예급 | 2.출금 | 3.잔고 | 4.종료");
+		System.out.println("==============================");
+		System.out.println("선택> ");
+		
+		
+		//String selNum = sc.nextLine();
+		
+		int selNum = Integer.parseInt(sc.nextLine());
+		
+		switch(selNum) {
+		case 1:
+			
+		}
+		
+		sc.close();
+	}
+
+}

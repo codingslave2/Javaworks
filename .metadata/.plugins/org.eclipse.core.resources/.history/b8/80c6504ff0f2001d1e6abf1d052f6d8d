@@ -1,0 +1,15 @@
+package var;
+
+public class ByteShortType {
+
+	public static void main(String[] args) {
+		// Byte형 (-128 ~ 127)
+		byte bData1 = -128;
+		// byte bData2 = 128; // 127을 넘어서 오류
+		
+		short sData1 = 128;
+		
+		System.out.println(bData1);
+	}
+
+}

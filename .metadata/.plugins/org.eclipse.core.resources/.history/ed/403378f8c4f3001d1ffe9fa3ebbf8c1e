@@ -1,0 +1,13 @@
+package ifExample;
+
+public class LeafYear {
+
+	public static void main(String[] args) {
+		// 윤년을 판별하는 프로그램(연도를 입력받음)
+		// 4년마다 오고, 100년 단위는 윤년이 아니나, 400년 단위는 윤년이 맞음
+		
+		int year = 2023;
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package var;
+
+public class IntLongType {
+
+	public static void main(String[] args) {
+		// Int - 4byte : 32bit
+		int iNum = 1234567890;
+		
+		System.out.println(iNum);
+
+	}
+
+}

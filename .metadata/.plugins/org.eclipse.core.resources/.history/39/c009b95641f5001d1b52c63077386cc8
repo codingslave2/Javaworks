@@ -1,0 +1,39 @@
+package methods;
+
+import java.util.Calendar;
+
+public class Calendar1 {
+
+	public static void main(String[] args) {
+		// Calendar 클래스 사용
+		
+		Calendar cal = Calendar.getInstance();
+		System.out.println(cal);
+		System.out.println(cal.getCalendarType());
+		
+		// 날짜 - 월에 1을 더해줌
+		
+		int year = cal.get(Calendar.YEAR);
+		int month = cal.get(Calendar.MONTH) + 1;
+		int date = cal.get(Calendar.DATE);
+		
+		
+		System.out.println(year);
+		System.out.println(month);
+		System.out.println(date);
+		
+		// 시간
+		
+		int hour = cal.get(Calendar.HOUR);
+		int minute = cal.get(Calendar.MINUTE);
+		int second = cal.get(Calendar.SECOND);
+		
+		System.out.println(hour);
+		System.out.println(minute);
+		System.out.println(second);
+		
+		
+		
+	}
+
+}

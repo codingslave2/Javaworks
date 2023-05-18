@@ -1,0 +1,13 @@
+package ifExample;
+
+public class Switchcase1 {
+
+	public static void main(String[] args) {
+		// switch - case문 (조건의 값이 정해져 있을 때 주로 사용)
+		
+		
+		
+		
+	}
+
+}

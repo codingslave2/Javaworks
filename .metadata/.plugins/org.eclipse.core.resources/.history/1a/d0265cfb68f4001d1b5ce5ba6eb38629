@@ -1,0 +1,23 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class Seat {
+
+	public static void main(String[] args) {
+		// 입장객 수에 따른 열과 줄수 계산하기
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("입장객 수 입력 : ");
+		int customer = sc.nextInt();
+		
+		
+		System.out.println("좌석 열 수 입력 : ");
+		int collum = sc.nextInt();
+		
+		System.out.println(customer);
+		System.out.println(collum);
+	}
+
+}

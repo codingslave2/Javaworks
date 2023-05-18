@@ -1,0 +1,19 @@
+package Arrays;
+
+public class ArrayCopy2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char[] arr1 = {'N', 'E', 'T'};
+		char[] arr2 = new char[3];
+		
+		
+		// 배열 복사
+		
+		
+		
+
+	}
+
+}

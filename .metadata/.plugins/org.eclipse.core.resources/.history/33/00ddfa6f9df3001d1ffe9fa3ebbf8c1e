@@ -1,0 +1,27 @@
+package operator;
+
+public class Operator1 {
+
+	public static void main(String[] args) {
+		// 영어, 수학 과목의 총점과 평균
+		// 변수(입력)
+		
+		int engScore = 90;
+		int mathScore = 80;
+		int totalScore;
+		
+		
+		
+		//총점과 평균 계산
+		totalScore = engScore + mathScore;
+		
+		
+		
+		// 출력
+		System.out.println("총점: " + totalScore); //숫자형이 문자형으로 자동 형변환됨
+		System.out.println("평균: " + totalScore);
+		
+		
+	}
+
+}

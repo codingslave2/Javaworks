@@ -1,0 +1,9 @@
+package var;
+
+public class Calc {
+
+	public static void main(String[] args) {
+	// 두 수의 합, 차, 곱, 나누기
+	}
+
+}

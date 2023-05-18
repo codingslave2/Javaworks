@@ -1,0 +1,10 @@
+package ifExample;
+
+public class While1 {
+
+	public static void main(String[] args) {
+		// while 반복문
+		
+	}
+
+}

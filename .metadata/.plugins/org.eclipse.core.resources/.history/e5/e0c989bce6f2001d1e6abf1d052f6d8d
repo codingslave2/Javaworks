@@ -1,0 +1,15 @@
+package var;
+
+public class StringType {
+
+	public static void main(String[] args) {
+		// 문자열 자료형
+		char ch = 'k';
+		String str = "k";
+		
+		System.out.println(ch);
+		System.out.println(str);
+		
+	}
+
+}

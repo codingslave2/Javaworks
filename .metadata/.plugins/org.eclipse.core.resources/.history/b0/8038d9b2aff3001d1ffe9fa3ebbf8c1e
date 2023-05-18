@@ -1,0 +1,14 @@
+package input;
+
+import java.util.Scanner;
+
+public class Input1 {
+
+	public static void main(String[] args) {
+		// 입력 처리 - Scanner
+		// java.util.Scanner 클래스를 import하여 사용함
+		
+		Scanner scan = new Scanner(System.in);
+	}
+
+}

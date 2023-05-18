@@ -1,0 +1,15 @@
+package ch03;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		 // 형 변환
+		 // 묵시적 형변형(자동 형변형)
+		int iNum = 20;
+		float fNum = iNum;
+		
+		System.out.println(iNum);
+		System.out.println(fNum);
+	}
+
+}

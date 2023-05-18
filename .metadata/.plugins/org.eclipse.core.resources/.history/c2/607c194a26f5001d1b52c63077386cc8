@@ -1,0 +1,11 @@
+package classpart;
+
+
+
+// 접근 제어자 - public
+public class Student {
+	int studentID; //학번
+	String studentName; //이름
+	
+	
+}

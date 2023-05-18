@@ -1,0 +1,9 @@
+package operator;
+
+public class Operator1 {
+
+	public static void main(String[] args) {
+		// 영어, 수학 과목의 총점과 평균
+	}
+
+}

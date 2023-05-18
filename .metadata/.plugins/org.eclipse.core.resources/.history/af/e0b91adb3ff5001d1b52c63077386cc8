@@ -1,0 +1,13 @@
+package methods;
+
+public class Calender1 {
+
+	public static void main(String[] args) {
+		// Calender 클래스 사용
+		
+		Calender = cal = Calender.getInstamce();
+		
+		
+	}
+
+}

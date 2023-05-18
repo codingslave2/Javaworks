@@ -1,0 +1,27 @@
+package ch03;
+
+class MethodEx{
+	public void SayHello() {
+		System.out.println("Hello~");
+	}
+	
+	// 두 수를 더하는 함수
+	public int add(int x, int y) {
+		return x + y;
+	}
+	
+}
+
+public class MethodTest {
+
+	public static void main(String[] args) {
+		
+		// sayHello() 사용(호출)
+		
+		MethodEx method = new MethodEx();
+		
+		method.SayHello();
+		
+	}
+
+}

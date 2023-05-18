@@ -1,0 +1,27 @@
+package classpart;
+
+public class Number {
+
+	int x; // 맴버 변수
+	
+	public Number() { // 생성자
+		x = 4;
+	}
+	
+	public Number(int y) { // 매개변수가 있는 생성자
+		x = y;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Number myObj = new Number();
+		System.out.println(myObj);
+		
+		
+
+	}
+
+}

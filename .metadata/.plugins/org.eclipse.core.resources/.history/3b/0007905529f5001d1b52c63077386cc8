@@ -1,0 +1,17 @@
+package classpart;
+
+public class Number {
+
+	int x; // 맴버 변수
+	
+	public Number() {
+		x = 4;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

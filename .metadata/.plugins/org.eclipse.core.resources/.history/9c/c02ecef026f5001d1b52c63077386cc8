@@ -1,0 +1,18 @@
+package classpart;
+
+
+
+// 접근 제어자 - public
+public class Student {
+	// 클래스의 3요소 - 맴버 변수, 생성자, 메소드
+	int studentID; //학번
+	String studentName; //이름
+	
+	public Student() {} // 기본 생성자
+	
+	public void showInfo() {
+		System.out.print("학번: " + studentID + ", 이름: " + "studentName");
+	}
+	
+	
+}
