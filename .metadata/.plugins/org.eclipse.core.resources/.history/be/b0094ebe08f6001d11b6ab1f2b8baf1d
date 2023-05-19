@@ -1,0 +1,18 @@
+package taketrans;
+
+public class Person {
+
+	String name;
+	int age;
+	int money;
+	
+	Person(String name, int money){
+		this.name = name;
+		this.money = money;
+	}
+	
+	//void.takeBus();
+	//void.shoInfo();
+	
+	
+}

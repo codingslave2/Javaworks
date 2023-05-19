@@ -7,6 +7,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="ovnwer"/>
 			<item value="package com.ljh.classes;"/>
 			<item value="}"/>
 		</list>

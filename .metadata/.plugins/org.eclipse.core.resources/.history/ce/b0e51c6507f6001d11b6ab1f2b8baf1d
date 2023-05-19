@@ -1,0 +1,14 @@
+package taketrans;
+
+public class Person {
+
+	String name;
+	int age;
+	int money;
+	
+	Person(String name, int money){
+		
+	}
+	
+	
+}
