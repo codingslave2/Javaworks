@@ -1,0 +1,17 @@
+package statics;
+
+public class Student {
+	
+	int studentid; // 학번
+	String name; // 이름
+	
+	Student(){} // 기본 생성자
+	
+	
+	String getname() {
+		return name;
+	}
+	
+	
+	
+}

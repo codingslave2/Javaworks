@@ -1,0 +1,9 @@
+package banking.bankarray;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		// 통장 계좌를 만들 객체 배열 100개 생성
+	}
+
+}

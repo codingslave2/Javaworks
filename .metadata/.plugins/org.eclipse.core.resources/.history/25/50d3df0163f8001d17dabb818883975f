@@ -1,0 +1,17 @@
+package objectArray;
+
+public class Book {
+	
+	String bookName;
+	String author;
+	
+	Book(String BookName, String author){
+		this.bookName = bookName;
+		this.author = author;
+	}
+	
+	void bookInfo() {
+		System.out.println(bookName + ", " + author);
+	}
+	
+}

@@ -1,0 +1,13 @@
+package statics;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// 학생 객체 생성(lee - 힙 메모리 영역 위치)
+		Student Lee = new Student();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package twodimention;
+
+public class TwoDimention1 {
+
+	public static void main(String[] args) {
+		// 정수형 2차원 배열
+		int[][] a = new int[2][3];
+		
+		
+	}
+
+}
