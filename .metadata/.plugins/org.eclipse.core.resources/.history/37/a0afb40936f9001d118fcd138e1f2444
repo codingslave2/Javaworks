@@ -1,0 +1,22 @@
+package arraylist.studentlist;
+
+import java.util.ArrayList;
+import arraylist.scorelist.Subject;
+
+public class Student {
+
+	
+	//filed 필드(맴버 변수)
+	int studentId; //학번
+	String studentName; // 이름
+	ArrayList<Subject> subjectList;
+	
+	public Student(int studentId, String studentName) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+		subjectList = new ArrayList();
+	}
+	
+	
+	
+}

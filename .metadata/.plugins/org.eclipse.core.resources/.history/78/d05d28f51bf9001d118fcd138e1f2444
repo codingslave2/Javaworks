@@ -1,0 +1,12 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		// 기본 10개의 저장 공간이 생성
+		ArrayList<String> cartList = new ArrayList<>();
+	}
+
+}

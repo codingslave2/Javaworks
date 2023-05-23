@@ -20,6 +20,13 @@ public class Account {
 		return owner;
 	}
 	
+
+	
+	
+	public void setBalance(int Balance) {
+		this.balance = balance;
+	}
+	
 	public int getBalance() {
 		return balance;
 	}

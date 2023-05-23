@@ -8,27 +8,27 @@ public class Book {
 	Book() {} // 기본 생성자
 	
 	
-	Book(String bookName, String author) {
+	public Book(String bookName, String author) {
 		this.bookName = bookName;
 		this.author = author;
 	}
 	
-	void bookInfo() {
+	public void bookInfo() {
 		System.out.println(bookName + ", " + author);
 	}
 	
 	// 책 이름을 입력하는 메소드
-	void setBookName(String bookName) {
+	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
 	
 	// 책 이름을 가져오는 메소드
-	String getBookName() {
+	public String getBookName() {
 		return bookName;
 	}
 	
 	// 저자를 입력하는 메소드
-	void setAuthor(String author) {
+	public void setAuthor(String author) {
 		this.author = author;
 	}
 	
