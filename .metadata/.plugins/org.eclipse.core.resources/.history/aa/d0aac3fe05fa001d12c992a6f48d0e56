@@ -1,0 +1,12 @@
+package protectedex.pack1;
+
+public class A {
+	String filed;
+	
+	A(){}
+	
+	void method() {
+		
+	}
+	
+}

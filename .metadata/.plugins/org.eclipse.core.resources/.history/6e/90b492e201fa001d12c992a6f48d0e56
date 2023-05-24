@@ -1,0 +1,5 @@
+package Inheritance.shop;
+
+public class Shop2 extends HeadShop {
+
+}

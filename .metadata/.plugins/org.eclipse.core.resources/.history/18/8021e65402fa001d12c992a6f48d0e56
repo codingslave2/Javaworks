@@ -1,0 +1,16 @@
+package Inheritance.shop;
+
+public class ShopMain {
+
+	public static void main(String[] args) {
+		// Shop1의 객체 생성
+		
+		Shop1 shop1 = new Shop1();
+		
+		shop1.sellDoenjangJJige();
+		shop1.sellKimchiJJige();
+		shop1.sellBibimBap();
+		
+	}
+
+}

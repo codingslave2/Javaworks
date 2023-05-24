@@ -1,0 +1,11 @@
+package Inheritance.shop;
+
+public class Shop1 extends HeadShop {
+	// 생성자
+	
+	public HeadShop() {
+		System.out.println("대학가 매점입니다.");
+	}
+	
+	
+}

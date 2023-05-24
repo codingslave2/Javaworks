@@ -1,0 +1,19 @@
+package randoms;
+
+import java.util.Scanner;
+
+public class TypingGame {
+
+	public static void main(String[] args) {
+		//
+		
+		String[] words = {"river", "mountain", "sky", "earth", "moon",
+				"tree", "flower", "cow", "pig", "horse"};
+		
+		int n = 1; //문제 번호
+		long start, end;
+		Scanner scan = new Scanner(System.in);
+
+	}
+
+}

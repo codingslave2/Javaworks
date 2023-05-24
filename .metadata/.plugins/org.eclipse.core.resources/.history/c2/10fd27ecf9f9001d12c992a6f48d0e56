@@ -1,0 +1,5 @@
+package Inheritance.person;
+
+public class Person {
+
+}

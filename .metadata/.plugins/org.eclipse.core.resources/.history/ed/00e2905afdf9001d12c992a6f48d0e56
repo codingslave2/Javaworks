@@ -1,0 +1,10 @@
+package Inheritance.car;
+
+public class Texi  extends Car{
+
+}
+
+public class TaxiTest{
+	
+	
+}
