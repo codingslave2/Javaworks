@@ -1,0 +1,14 @@
+package db;
+
+public class JdbcTest {
+	
+	// 필드
+	static String driverClass = "oracle.jdbc.OracleDriver";
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

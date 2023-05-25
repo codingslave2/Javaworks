@@ -1,0 +1,20 @@
+package Inheritance.car;
+
+import java.util.ArrayList;
+
+public class CarArrayList{
+
+
+
+	public static void main(String[] args) {
+		// 자동차 3대 생성 - ArrayList에 저장
+		ArrayList<Car> carlist = new ArrayList<>();
+		
+		Car car1 = new Car("소나타", 2500, 1);
+		
+		carlist.add(new Car("소나타", 2500));
+		carlist.add(new Car("모닝", 1000));
+		carlist.add(new Car("BMW", 3000));
+	}
+
+}

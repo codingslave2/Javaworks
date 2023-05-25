@@ -1,0 +1,17 @@
+package chapter04;
+
+public class Test4_2 {
+
+	public static void main(String[] args) {
+		// random 매소드
+		while(true) {
+			int dice1 = (int)(Math.random()*6) + 1;
+			int dice2 = (int)(Math.random()*6) + 1;
+			System.out.println(dice1 + ',' + dice2);
+			if(dice1 + dice2 == 5) break;
+		}
+		
+		
+	}
+
+}

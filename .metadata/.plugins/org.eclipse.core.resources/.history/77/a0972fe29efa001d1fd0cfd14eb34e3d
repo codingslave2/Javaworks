@@ -1,0 +1,11 @@
+package enums;
+
+public enum Week {
+	SUNDAY,
+	MONDAYM
+	TUESDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY
+}

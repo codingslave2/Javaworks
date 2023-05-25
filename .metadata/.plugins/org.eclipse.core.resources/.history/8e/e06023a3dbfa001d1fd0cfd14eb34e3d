@@ -1,0 +1,12 @@
+package db;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		// Person 자료 검색(목록 조회)
+		
+		PersonDAO dao = new PersonDAO();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Inheritance.airplane;
+
+public class SuperSonicAirPlane extends AirPlane{
+
+	@Override // 매소드 재정의
+	public void fly() {
+		super.fly();
+	}
+	
+}

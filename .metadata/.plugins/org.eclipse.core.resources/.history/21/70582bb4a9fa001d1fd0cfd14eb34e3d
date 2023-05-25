@@ -1,0 +1,29 @@
+package transport;
+
+public class Vechicle {
+	// 필드
+	String vechicleName; // 차량 이름
+	int money; // 수입
+	int passengerCount; // 승객수
+	
+	// 생성자
+	public Vechicle(String vechicleName) {
+		this.vechicleName = vechicleName;
+	}
+	
+	// 운송하다(태우다) 매소드 - 수입이 증가하고, 승객수가 증가
+	public void carry(int money) {
+		this.money += money;
+		passengerCount++;
+	}
+	
+	
+	
+	
+	//차량의 정보 출력
+	public void showInfo() {
+		System.out.printf("%d의 수입은 %d원이고, 승객수는 %d명입니다.");
+	}
+	
+	
+}

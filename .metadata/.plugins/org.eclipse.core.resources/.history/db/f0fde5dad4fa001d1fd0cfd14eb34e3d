@@ -1,0 +1,12 @@
+package db;
+
+public class Person {
+	private String userId;
+	private String userPw;
+	private String name;
+	private int age;
+	
+	public Person() {}
+	
+	public Person(String userId, String userPw, String name, int age);
+}

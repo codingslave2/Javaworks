@@ -1,0 +1,15 @@
+package exception;
+
+public class ExceptionHandling2 {
+
+	public static void main(String[] args) {
+		// 명령형 실행
+		// Run - Run Configurations - Arguments
+		String data1 = null;
+		String data2 = null;
+		
+		data1 = args[0];
+		
+	}
+
+}
