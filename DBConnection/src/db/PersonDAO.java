@@ -12,6 +12,7 @@ public class PersonDAO {
 	// 필드
 	private Connection conn = null; // 연결 처리 클래스
 	private PreparedStatement pstmt = null; // sql 처리 클래스
+	private ResultSet rs = null;
 	
 	
 	// 연결 - 클래스 작성 호출
@@ -21,7 +22,24 @@ public class PersonDAO {
 	// 자료 삽입
 	public void insertPerson(Person person) {
 		conn = JDBCUtil.getConnection();
-		// String sql = "";
+		String sql = "INSERT INTO person(userid, userpw, name, age) "
+				+ "VALUES (?, ?, ?, ?)";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, person.getUserId());
+			pstmt.setString(2, person.getUserPw());
+			pstmt.setString(3, person.getName());
+			pstmt.setInt(4, person.getAge());
+			
+			pstmt.executeUpdate(); // 실행 처리(db에 저장)
+		}catch(SQLException e){
+			e.printStackTrace();
+		}finally {
+			JDBCUtil.close(conn, pstmt);
+		}
+			
+		
+		
 	}
 	
 	
@@ -35,7 +53,7 @@ public class PersonDAO {
 			pstmt = conn.prepareStatement(sql);
 			ResultSet rs = pstmt.executeQuery(); // 검색 -executeQuery()를 사용
 			
-			while(rs.next()) {
+			while(rs.next()) { // 다음에 가져올 데이터가 있다면
 				Person person = new Person(); // 기본 생성자로 객체 생성
 				// person 테이블에서 person 객체의 데이터에 저장함
 				person.setUserId(rs.getString("userid")); // 유저 id 가져오기
@@ -54,6 +72,24 @@ public class PersonDAO {
 		return personList; // 호출하는 곳으로 반환함(돌려줌)
 	}
 	
-	
+	// 자료 1개 검색
+	public Person getPerson(String userId) {
+		Person person = new Person();
+		conn = JDBCUtil.getConnection();
+		String sql = "SELECT * FROM person WHERE userid = ?";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, userId);
+			rs = pstmt.executeQuery();
+			if(rs.next()) {
+				person.setUserId(rs.getString("userid"));
+				person.setUserPw(rs.getString("userpw"));
+				person.setName(rs.getString("name"));
+				person.setAge(rs.getInt("age"));
+			}
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}return person;
+	}
 	
 }
