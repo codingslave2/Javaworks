@@ -1,9 +1,0 @@
-package thissample;
-
-public class Birthday {
-	
-	int year;
-	int month;
-	int day;
-
-}

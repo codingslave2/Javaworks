@@ -19,9 +19,9 @@ public class Television implements RemoteControl{
 
 	@Override
 	public void setVolume(int volume) {
-		if(volume > RemoteControl.MAX_VOLUME) {
+		if(volume > RemoteControl.MAX_VOLUME) { // 최대 볼륨
 			this.volume = RemoteControl.MAX_VOLUME;
-		}else if(volume < RemoteControl.MIN_VOLUME) {
+		}else if(volume < RemoteControl.MIN_VOLUME) { // 최소 볼륨
 			this.volume = RemoteControl.MIN_VOLUME;
 		}else {
 			this.volume = volume;

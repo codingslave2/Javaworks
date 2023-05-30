@@ -1,8 +1,0 @@
-package objectArray;
-
-public class Dog {
-	private String name;
-	private String type;
-	
-	public Dog() {}  // 기본 생성자	
-}
