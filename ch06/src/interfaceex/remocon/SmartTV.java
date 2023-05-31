@@ -1,17 +1,19 @@
 package interfaceex.remocon;
 
-public class Audio implements RemoteControl{
+public class SmartTV implements RemoteControl, Searchable{
 	
 	private int volume;
-	
+
 	@Override
 	public void turnOn() {
-		System.out.println("오디오를 켭니다.");
+		System.out.println("TV를 켭니다");
+		
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("오디오를 끕니다.");		
+		System.out.println("TV를 끕니다.");
+		
 	}
 
 	@Override
@@ -25,9 +27,16 @@ public class Audio implements RemoteControl{
 		}
 		System.out.println("현재 오디오 볼륨: " + this.volume + "입니다.");
 	}
+
+	@Override
+	public void search(String url) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
 	
 	
-	
-	
-	
-} // 퍼블릭 클래스 종료
+}
+
+
