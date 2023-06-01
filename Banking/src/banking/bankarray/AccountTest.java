@@ -16,7 +16,7 @@ public class AccountTest {
 		
 		Account[] accountArray = new Account[10];
 		
-		accountArray[0] = new Account("2222", "이대리", "20000");
+accountArray[0] = new Account("2222", "이대리", "10000");
 		
 		// 계좌 번호 목록을 출력하는 메소드
 		for(int i=0; i<accountArray.length; i++) {
@@ -32,4 +32,4 @@ public class AccountTest {
 
 // 계좌를 검색하는 매소드
 
-	private static Account findAccount(String )
+	private static Account findAccount(String);
