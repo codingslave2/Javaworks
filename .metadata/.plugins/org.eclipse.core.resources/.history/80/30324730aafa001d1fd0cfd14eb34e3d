@@ -1,9 +1,0 @@
-package transport;
-
-public class Taxi extends Vehicle{
-	
-	public Bus(String vechicleName) {
-		super(vechicleName);
-	}
-	
-}

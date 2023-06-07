@@ -1,5 +1,0 @@
-package Inheritance.car;
-
-public class Texi  extends Car{
-
-}

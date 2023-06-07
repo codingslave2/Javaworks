@@ -1,8 +1,0 @@
-package fruits;
-
-public class Grape extends fruits{
-
-	public Grape() {
-		
-	}
-}

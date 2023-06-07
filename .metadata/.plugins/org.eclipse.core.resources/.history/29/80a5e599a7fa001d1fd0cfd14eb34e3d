@@ -1,7 +1,0 @@
-package transport;
-
-public class Vechicle {
-	// 필드
-	String vechicleName; // 차량 이름
-	int money; // 수입
-}

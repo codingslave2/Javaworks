@@ -1,8 +1,0 @@
-package db;
-
-public class Person {
-	private String userId;
-	private String userPw;
-	private String name;
-	private int age;
-}
